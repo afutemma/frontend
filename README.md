@@ -1,4 +1,4 @@
-# Teste para Frontend Buscapé
+# Teste para Front-end Buscapé
 
 ## Stack
 
