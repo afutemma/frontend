@@ -7,6 +7,7 @@
 
 ## Pré-requisitos
 
+* Layout responsivo.
 * Listar os produtos.
 * Adicionar no carrinho.
 * Remover do carrinho.
