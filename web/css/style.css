@@ -1,0 +1,312 @@
+body {
+	background: #f1f1f1;
+	font-family: Montserrat;
+	margin: 0;
+}
+
+header {
+	background: #FFCD00;
+	height: 92px;
+}
+
+header img {
+	padding: 15px;
+	width: 120px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	margin: 0;
+}
+
+#cart {
+	display: none;
+}
+
+.menu-cart {
+	position: relative;
+	float: right;
+	padding: 22px;
+}
+
+.menu-n-cart {
+	background-color: #d62a33;
+	border-radius: 20px;
+	color: white;
+	bottom: 20px;
+	left: 15px;
+	font-size: 15px;
+	position: absolute;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	display: none;
+}
+
+.menu-icon {
+	color: black;
+}
+
+.itemvalor {
+	font-weight: bold;
+	font-size: smaller;
+	padding-top: 15px;
+}
+
+.full-line {
+	width: 100%;
+}
+
+.no-lateral {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+#itens {
+	height: auto;
+	overflow: auto;
+}
+
+.item {
+	background: #C49D00;
+	padding: 5px;
+}
+
+#subtotal {
+	background: #DAAF00;
+	color: black;
+	font-size: small;
+	font-weight: bold;
+	text-align: right;
+	padding: 20px;
+}
+
+.itemimg {
+	width: 70px;
+	border: 1px solid black;
+}
+
+.itemname {
+	color: white;
+}
+
+.removeitem {
+	padding-left: 20px;
+	text-align: right;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+.removeitem a {
+	text-decoration: none;
+	color: black;
+}
+
+.itemanimate {
+	opacity: 0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	transition: all 1s;
+}
+
+.itemanimate.in {
+	opacity: 1;
+}
+
+#produtos {
+	position: relative;
+}
+
+.produto {
+	background: white;
+	margin: 5px;
+	padding: 20px 5px 5px 5px;
+	float: left;
+	width: 100%
+}
+
+.productline {
+	margin-top: 15px !important;
+	margin-bottom: 10px !important;
+}
+
+.cartline {
+	margin-top: 2px !important;
+	margin-bottom: 3px !important;
+	border-top: 1px solid black;
+}
+
+.miniatures img {
+	width: 40px;
+	height: 30px;
+	margin: 2px;
+	border: 2px solid #FBFBFB;
+}
+
+.miniatures img:hover {
+	border: 2px solid #FFF8D8;
+}
+
+.selectedimage {
+	border: 2px solid #FFF8D8 !important;
+}
+
+.photo {
+	text-align: center;
+}
+
+.mainphoto {
+	max-width: 150px;
+	max-height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.itemphoto {
+	display: none;
+}
+
+.productname {
+	color: #444444
+}
+
+.fa-heart-o, .fa-heart {
+	padding-left: 10px;
+	color: #ffd010;
+	font-weight: bold;
+}
+
+.melhorpreco {
+	margin-right: 11px;
+	position: relative;
+	font-size: xx-small;
+	padding: 3px 8px 4px;
+	background-color: #1990df;
+	border-radius: 0;
+	text-shadow: none;
+	font-weight: normal;
+	display: inline;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+
+.melhorpreco:after {
+	content: "";
+	right: -16px;
+	border-width: 9px 9px;
+	border-left-color: #1990df;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	border-style: solid;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+.smalltext {
+	font-size: 15px;
+}
+
+.mediumtext {
+	font-size: 20px;
+}
+
+.bigtext {
+	font-size: 25px;
+}
+
+.greentext {
+	color: #22b14c;
+}
+
+.greytext {
+	color: #757575;
+}
+
+.addbtn {
+	background: #22b14c;
+	color: white;
+}
+
+.addbtn:hover, .addbtn:visited, .addbtn:active {
+	color: white;
+}
+
+.addbtn .fa {
+	font-weight: bold;
+	font-size: large;
+	padding: 0 0 0 5px;
+}
+
+@media ( max-width : 767px) {
+	ul {
+		padding-left: 1px !important;
+	}
+	.smalltext {
+		font-size: 10px;
+	}
+	.mediumtext {
+		font-size: 15px;
+	}
+	.bigtext {
+		font-size: 18px;
+	}
+	.btn {
+		font-size: 9px;
+		padding: 5px 10px;
+	}
+	.addbtn .fa {
+		font-size: inherit;
+	}
+	.miniatures {
+		padding: 0 10px;
+		width: 10%;
+	}
+	.description {
+		padding-right: 0;
+	}
+	.prices {
+		padding: 10px 0;
+	}
+}
+
+@media ( min-width : 768px) {
+	ul {
+		padding-left: 20px !important;
+	}
+	.miniatures {
+		width: 10%;
+	}
+}
+
+@media ( min-width : 992px) {
+	.miniatures {
+		width: 12%;
+	}
+	.photo {
+		width: 18%;
+		padding-right: 30px;
+	}
+}
+
+@media ( min-width : 1200px) {
+	ul {
+		padding-left: 15px !important;
+	}
+	.miniatures {
+		width: 8.33333333%;
+	}
+	.photo {
+		width: 16.66666667%;
+	}
+}
